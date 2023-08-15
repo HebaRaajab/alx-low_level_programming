@@ -1,17 +1,18 @@
 /*
- * we use this line to declre the standard input and outpput functions 
- * name: heba
+ * File: 4-puts.c
+ * Auth: heba
  */
 
-#include <stadio.h>
+#include <stdio.h>
 
-/*
- * we used the puts function for printing to print our statement
- * we use return function to end program 
+/**
+ * main - Puts "programming is like building a multilingual puzzle"
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 }
