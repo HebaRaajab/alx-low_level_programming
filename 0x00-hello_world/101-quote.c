@@ -20,7 +20,7 @@ int main(void)
 	int sL = strlen(myWord);
 
 	write(1, myWord, sL);
-	write(1, "\n", 2);
+	write(1, "\n", 1);
 	return (1);
 }
 
