@@ -17,9 +17,9 @@ int main(void)
 {
 
 	char myWord[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	int sLong = strlen(myWord);
+	int sL = strlen(myWord);
 
-	write(1, myWord, sLong);
+	write(1, myWord, sL);
 	write(1, "\n", 2);
 	return (1);
 }
