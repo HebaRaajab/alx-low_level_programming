@@ -21,6 +21,6 @@ int main(void)
 		else
 			putchar('a' + num - 10);
 	}
-	return (0);
 	putchar('\n');
+	return (0);
 }
