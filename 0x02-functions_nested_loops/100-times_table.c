@@ -43,14 +43,4 @@ void print_times_table(int n)
 	}
 }
 
-/**
- * print_delimiter_space - prints delimiter and space
- */
-void print_delimiter_space(void)
-{
-	_putchar(',');
-	_putchar(' ');
-	_putchar(' ');
-	_putchar(' ');
-}
 
