@@ -23,6 +23,7 @@ void print_times_table(int n)
 				{
 					void print_delimiter_space(void);
 					_putchar(k + '0');
+					putchar(' ');
 				}
 				else if (k >= 10 && k < 100)
 				{
