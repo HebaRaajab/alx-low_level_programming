@@ -52,5 +52,5 @@ void print_delimiter_space(void)
 	_putchar(' ');
 	_putchar(' ');
 	_putchar(' ');
-i}
+}
 
