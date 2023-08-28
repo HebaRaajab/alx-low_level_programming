@@ -1,21 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <unistd.h>
-
-/**
- * _putchar - prints "_putchar"
- * @word: char constant
- *
- * Description: Function that takes a character
- *		as parametar and print putchat
- * Return: Function to prints "_putchar"
- */
-
-int _putchar(const char *word)
-{
-	return (write(1, word, strlen(word)));
-}
+#include <main.h>
 
 /**
  * main - Enrey point
@@ -26,10 +9,15 @@ int _putchar(const char *word)
 
 int main(void)
 {
-	const char *word = "_putchar";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 
-	_putchar(word);
-
-	return (0);
+return (0);
 }
 

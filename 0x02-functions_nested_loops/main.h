@@ -1,5 +1,7 @@
-#define main_header_file
-int _putchar(char h);
+/**
+ * File:main.h
+ * Description:header file containing functions declaration
+ */
 
+int putchar(char c);
 
-#endif
