@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- * main - Enrey point
+ * main - print _putchar
+ * Description: prints "putchar"
  *
- * Description: print _putchar using function using pputchar
- * Return: Always 0.
+ * Return: 0
  */
 
 int main(void)
@@ -17,7 +16,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-
+	_putchar('\n');
 return (0);
 }
 
